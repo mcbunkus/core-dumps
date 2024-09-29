@@ -1,0 +1,18 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'mcbunkus'
+theme = 'bunk'
+summaryLength = 32
+
+[params]
+blogSection = "posts"
+
+[[menus.main]]
+name = "projects"
+pageRef = '/projects'
+weight = 10
+
+[[menus.main]]
+name = "posts"
+pageRef = '/posts'
+weight = 20

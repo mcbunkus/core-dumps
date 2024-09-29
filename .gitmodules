@@ -1,0 +1,3 @@
+[submodule "themes/bunk"]
+	path = themes/bunk
+	url = git@github.com:mcbunkus/bunk.git
