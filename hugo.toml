@@ -1,4 +1,4 @@
-baseURL = 'https://mcbunkus.github.io/mcbunkus'
+baseURL = 'https://mcbunkus.github.io/mcbunkus/'
 languageCode = 'en-us'
 title = 'mcbunkus'
 theme = 'bunk'

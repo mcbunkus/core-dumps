@@ -1,7 +1,7 @@
 +++
 title = 'How to write a blog.'
 date = 2024-09-28T23:07:37-05:00
-draft = true
+draft = false
 +++
 
 To establish a blog, one must first select a suitable platform and domain name. Following this, it is essential to
