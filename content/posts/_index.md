@@ -1,3 +1,3 @@
 # Posts
 
-This is my blog. I won't post here much.
+This is my blog. I don't really know what to write here.

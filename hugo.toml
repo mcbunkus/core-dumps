@@ -2,7 +2,8 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'mcbunkus'
 theme = 'bunk'
-summaryLength = 32
+summaryLength = 16
+paginate = 5
 
 [params]
 blogSection = "posts"

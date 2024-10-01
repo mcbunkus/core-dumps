@@ -1,12 +1,12 @@
 +++
-title = "Introducing: Sparrow Mk. I"
+title = "Sparrow"
 date = 2024-09-29T00:15:36-05:00
 tags = ["sparrow", "embedded", "cad", "pcb"]
 summary = "Oh god he's making rockets again."
 +++
 
 
-[//]: # (![Sparrow Model]&#40;sparrow-model.png&#41;)
+![Sparrow Model](sparrow-model.png)
 
 So, I haven't been keeping up this blog very well, but don't worry, I'm back with a new project. I'm calling it
 "Sparrow" -- it's a reintroduction to both embedded development and rocketry.
