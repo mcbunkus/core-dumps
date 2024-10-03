@@ -3,10 +3,24 @@ languageCode = 'en-us'
 title = 'mcbunkus'
 theme = 'bunk'
 summaryLength = 16
-paginate = 5
+
+[pagination]
+pagerSize = 5
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.extensions]
+[markup.goldmark.extensions.passthrough]
+enable = true
+
+[markup.goldmark.extensions.passthrough.delimiters]
+block = [['\[', '\]'], ['$$', '$$']]
+inline = [['\(', '\)']]
 
 [params]
 blogSection = "posts"
+math = true
+
 
 [[menus.main]]
 name = "projects"
