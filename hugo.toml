@@ -2,25 +2,15 @@ baseURL = 'https://mcbunkus.github.io/mcbunkus/'
 languageCode = 'en-us'
 title = 'mcbunkus'
 theme = 'bunk'
-summaryLength = 16
+summaryLength = 8
 
 [pagination]
 pagerSize = 5
 
-[markup]
-[markup.goldmark]
-[markup.goldmark.extensions]
-[markup.goldmark.extensions.passthrough]
-enable = true
-
-[markup.goldmark.extensions.passthrough.delimiters]
-block = [['\[', '\]'], ['$$', '$$']]
-inline = [['\(', '\)']]
 
 [params]
 blogSection = "posts"
 math = true
-
 
 [[menus.main]]
 name = "projects"
@@ -31,3 +21,13 @@ weight = 10
 name = "posts"
 pageRef = '/posts'
 weight = 20
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.extensions]
+[markup.goldmark.extensions.passthrough]
+enable = true
+
+[markup.goldmark.extensions.passthrough.delimiters]
+block = [['\[', '\]'], ['$$', '$$']]
+inline = [['\(', '\)']]
