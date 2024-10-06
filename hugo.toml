@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = 'mcbunkus'
 theme = 'bunk'
 summaryLength = 8
+ignoreFiles = ["_templates/*"]
 
 [pagination]
 pagerSize = 5
@@ -22,12 +23,9 @@ name = "posts"
 pageRef = '/posts'
 weight = 20
 
-[markup]
-[markup.goldmark]
-[markup.goldmark.extensions]
 [markup.goldmark.extensions.passthrough]
 enable = true
 
 [markup.goldmark.extensions.passthrough.delimiters]
 block = [['\[', '\]'], ['$$', '$$']]
-inline = [['\(', '\)']]
+inline = [['$', '$'], ['\(', '\)']]

@@ -141,3 +141,5 @@ dist
 .obsidian/
 
 .DS_Store
+
+*.vimrc

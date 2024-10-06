@@ -19,6 +19,7 @@ My goals for this project are to:
 3. Learn FreeCAD
 4. Re-familiarize myself with OpenRocket and making rockets
 5. …and maybe make my own rocket fuel, we'll see  
+
  My ultimate goal for Sparrow is to create a "fully" mechanical hobby rocket, with thrust vectoring, telemetry, mechanical recovery mechanisms, custom electronics, the whole works. I haven't used the skills I learned in college much since I graduated, and I don't want them to go to waste. I know that this is a huge undertaking, but I think that I will be able to reuse what I learn and make in this project elsewhere.
 
 ## Electronics
