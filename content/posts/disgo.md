@@ -3,25 +3,26 @@ title: Disgo
 date: 2024-10-04T20:57:04-05:00
 tags:
   - gamedev
+  - project
 draft: false
 summary: A 2D puzzle race against the clock.
 ---
 
-Let me introduce you to *Disgo*.
+Let me introduce you to _Disgo_.
 
-{{< figure src="home-screen.png" width="50%" description="Home screen.">}}
+{{< figure src="/img/disgo/home-screen.png" caption="Home screen"  >}}
 
-This is a project I've been working on for a *long* time. It's a simple game with a simple premise that was surprisingly difficult to crack. *Disgo* is a 2D puzzle game, where the goal is to solve puzzles as fast as you can. It's similar to *Sudoku* in a few ways—there is a grid of chips which have a color and a symbol. Most of the chips are "hidden", but some are revealed to you at the beginning of the game. There can only be 1 of each symbol in each row and each column. Additionally, there can only be 1 of each symbol in each set of colors—using this information, you can deduce the hidden chips' symbols to solve the puzzle. A picture can explain this more clearly than I can though:
+This is a project I've been working on for a _long_ time. It's a simple game with a simple premise that was surprisingly difficult to crack. _Disgo_ is a 2D puzzle game, where the goal is to solve puzzles as fast as you can. It's similar to _Sudoku_ in a few ways—there is a grid of chips which have a color and a symbol. Most of the chips are "hidden", but some are revealed to you at the beginning of the game. There can only be 1 of each symbol in each row and each column. Additionally, there can only be 1 of each symbol in each set of colors—using this information, you can deduce the hidden chips' symbols to solve the puzzle. A picture can explain this more clearly than I can though:
 
-{{< figure src="end.png" width="50%" >}}
+{{< figure src="/img/disgo/end.png" >}}
 
 At the beginning of the game, you are presented with a random board, that looks something like this:
 
-{{< figure src="beginning.png" width="50%" >}}
+{{< figure src="/img/disgo/beginning.png"  >}}
 
-You know that a symbol can only occur once in each row, column, and color set. Using your powers of deduction, you find a piece that you know you can reveal. To reveal it, you can tap on it to reveal a selector wheel.  
+You know that a symbol can only occur once in each row, column, and color set. Using your powers of deduction, you find a piece that you know you can reveal. To reveal it, you can tap on it to reveal a selector wheel.
 
-{{< figure src="selectors.png" width="50%" >}}
+{{< figure src="/img/disgo/selectors.png" >}}
 
 If you have guessed correctly, then the chip will be revealed, helping you determine the other pieces. If you guess wrong however… then you're hit with a time penalty. Every time you make an incorrect guess, your penalty will be more and more severe, so don't think you can brute force a record time!
 
@@ -40,19 +41,19 @@ D & C & B & A \\
 \end{matrix}
 $$
 
-They are \(N \times N\) matrices where each row and column contains \(N\) different symbols, where each symbol occurs exactly once in each row and column. They don't have to be in order like the example above either, there are many, *many* permutations of a Latin square. *Disgo* creates its grid by starting with a predefined square, and shuffling the rows and columns to create a new random square. This "scrambles" the grid while preserving its Latin square-ness.
+They are \(N \times N\) matrices where each row and column contains \(N\) different symbols, where each symbol occurs exactly once in each row and column. They don't have to be in order like the example above either, there are many, _many_ permutations of a Latin square. _Disgo_ creates its grid by starting with a predefined square, and shuffling the rows and columns to create a new random square. This "scrambles" the grid while preserving its Latin square-ness.
 
 ### Solvability
 
-So how do we choose where to place the colors when generating a board? I naively thought that the colors could be placed randomly—as it turns out, this is not the case. I discovered that a player would often get a board that they could begin to solve, but halfway through they would hit a roadblock. They couldn't continue without making a guess *somewhere*. Very rarely, they wouldn't even be able to start the game without making a guess.
+So how do we choose where to place the colors when generating a board? I naively thought that the colors could be placed randomly—as it turns out, this is not the case. I discovered that a player would often get a board that they could begin to solve, but halfway through they would hit a roadblock. They couldn't continue without making a guess _somewhere_. Very rarely, they wouldn't even be able to start the game without making a guess.
 
-I churned through many iterations to solve this issue, it was surprisingly *very* difficult to solve. But I think I've landed on the solution. Hopefully it won't take the magic out of the game once you know how it works. When generating the grid, I start with a predefined Latin square where the diagonal is sequential, like this:
+I churned through many iterations to solve this issue, it was surprisingly _very_ difficult to solve. But I think I've landed on the solution. Hopefully it won't take the magic out of the game once you know how it works. When generating the grid, I start with a predefined Latin square where the diagonal is sequential, like this:
 
 $$
 \begin{matrix}
  0 & \cdot & \cdot & \cdot \\
 \cdot & 1 & \cdot & \cdot \\
-\cdot & \cdot & 2 & \cdot \\ 
+\cdot & \cdot & 2 & \cdot \\
 \cdot & \cdot & \cdot & 3 \\
 \end{matrix}
 $$
