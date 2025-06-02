@@ -1,6 +1,6 @@
 # Hi, I'm Austen 👋
 
-{{< intro img="/img/me.jpg" >}}
+{{< intro img="me.jpg" >}}
 
 I'm a software engineer living in Huntsville. I'm originally from Massachusetts,
 but I grew up in Coosa County, Alabama. I studied aerospace engineering at
