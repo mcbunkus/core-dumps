@@ -1,10 +1,39 @@
-<div style="display: flex; align-items: flex-start; gap: 2rem;">
+<style>
+.intro {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  
+}
+
+.intro-img {
+    min-width: 256px;
+}
+  
+.intro-text {
+    flex: 1;
+    margin-top: 25px;
+}
+
+@media (max-width: 600px) {
+  .intro {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .intro-text {
+    margin-top: 0px;
+  }
+</style>
+
+<div class="intro">
   <img 
     src="{{ .Get "img" }}" 
     alt="{{ .Get "alt" }}" 
+    class="intro-img"
   />
   <!-- margin-top to align with default image padding from terminal theme -->
-  <div style="flex: 1; margin-top: 25px;">
+  <div class="intro-text">
     {{ .Inner | markdownify }}
   </div>
 </div>
