@@ -32,7 +32,7 @@ words = "words"
 
 [languages.en.params.logo]
 logoText = "mcbunkus"
-logoHomeLink = "/"
+logoHomeLink = "/mcbunkus"
 
 # [languages.en.menu]
 # [[languages.en.menu.main]]

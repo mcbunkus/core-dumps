@@ -392,3 +392,8 @@ button {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* fixes issue with disqus comments butting up against next post link */
+#disqus_thread {
+  padding-top: 25px;
+}
