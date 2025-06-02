@@ -385,3 +385,10 @@ th,
 button {
   font-weight: 600;
 }
+
+/* custom classes */
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
