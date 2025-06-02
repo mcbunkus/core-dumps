@@ -2,6 +2,7 @@
 title = 'Starting something new with this blog.'
 date = 2025-06-01T20:40:10-05:00
 draft = false
+tags = ['random']
 +++
 
 I originally started this blog to showcase my projects. Like many of us though,
@@ -30,10 +31,12 @@ I'm sensitive to a fault. Not only sensitive to me, but to others too. This is
 why I struggle to find the words to say when meeting new people, or seeing
 people I don't see often... I lock up. It's very, very rare when I make a real
 connection to someone. I promise this is not a self-pity party, I said all this
-because, in my opinion, I'm much better on paper. I've tried journaling before,
-but it never hit the spot, it feels like I never got what was in my heart out.
-I'm beginning to think it's because I'm telling it to the void, when I really
-want to tell **_YOU_**.
+because, in my opinion, I'm much better on paper. I (admittedly) put too much
+stress on myself, thinking about what to say and how to say it so my message
+gets across the way I intended. I have the time to formulate my thoughts when
+it's written, I guess. I've tried journaling before, but it never hit the spot,
+it feels like I never got what was in my heart out. I'm beginning to think it's
+because I'm telling it to the void, when I really want to tell **_YOU_**.
 
 So I'm going to do what he did. This place is no longer a portfolio for my
 projects, this is my open journal to y'all, starting now (within reason of
