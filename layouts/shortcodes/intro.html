@@ -1,0 +1,10 @@
+<div style="display: flex; align-items: flex-start; gap: 2rem;">
+  <img 
+    src="{{ .Get "img" }}" 
+    alt="{{ .Get "alt" }}" 
+  />
+  <!-- margin-top to align with default image padding from terminal theme -->
+  <div style="flex: 1; margin-top: 25px;">
+    {{ .Inner | markdownify }}
+  </div>
+</div>
