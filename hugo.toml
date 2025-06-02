@@ -1,4 +1,3 @@
-# baseURL = 'https://mcbunkus.github.io/mcbunkus/'
 baseURL = '/'
 languageCode = 'en-us'
 # theme = "terminal"
@@ -54,6 +53,10 @@ enable = true
 [markup.goldmark.extensions.passthrough.delimiters]
 block = [['\[', '\]'], ['$$', '$$']]
 inline = [['\(', '\)']]
+
+[services]
+[services.disqus]
+shortname = 'mcbunkus'
 
 [module]
 # this is needed when you fetch the theme as a submodule to your repo.
