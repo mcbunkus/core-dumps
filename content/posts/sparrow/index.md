@@ -7,6 +7,7 @@ tags:
   - pcb
 summary: Oh no, he's making rockets again.
 cover: model.png
+draft: true
 ---
 
 So, I haven't been keeping up this blog very well, but don't worry, I'm back

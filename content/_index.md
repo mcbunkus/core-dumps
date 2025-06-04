@@ -1,14 +1,7 @@
-# Hi, I'm Austen 👋
+# Core dumps?
 
-{{< intro img="me.jpg" >}}
-
-I'm a software engineer living in Huntsville. I'm originally from Massachusetts,
-but I grew up in Coosa County, Alabama. I studied aerospace engineering at
-Auburn University, and participated in NASA's USLI and Spaceport America
-competitions. I've always been a tinkerer, but my tinkering really took off
-here. I also enjoy playing a little guitar here and there, a good documentary,
-and a good chess game. :)
-
-{{< /intro >}}
-
-</span>
+A core dump is a recorded state of a computer program at a specific point in
+time, usually when it crashes. They're snapshots of what the computer was
+"thinking" about when it crashed. This blog is a collection of my core dumps,
+everything that's in my heart and on my mind. It's an open journal for my
+friends and family to read, about my thoughts, desires, and adventures.

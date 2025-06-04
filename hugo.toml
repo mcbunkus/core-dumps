@@ -1,14 +1,15 @@
 baseURL = '/'
 languageCode = 'en-us'
-# theme = "terminal"
-pagination.pagerSize = 5
+title = "core dumps"
+summaryLength = 16
 
+[pagination]
+pagination.pagerSize = 5
 
 [params]
 contentTypeName = "posts"
 showMenuItems = 2
 centerTheme = true
-math = true
 
 [languages]
 [languages.en]
@@ -16,7 +17,7 @@ languageName = "English"
 title = "mcbunkus"
 
 [languages.en.params]
-subtitle = "A simple, retro theme for Hugo"
+subtitle = "My brain's core dumps for your amusement"
 owner = "Austen LeBeau"
 keywords = ""
 copyright = ""
@@ -31,29 +32,13 @@ minuteReadingTime = "min read"
 words = "words"
 
 [languages.en.params.logo]
-logoText = "mcbunkus"
-logoHomeLink = "/mcbunkus"
-
-# [languages.en.menu]
-# [[languages.en.menu.main]]
-# identifier = "projects"
-# name = "Projects"
-# url = "/projects"
+logoText = "core dumps"
+logoHomeLink = "/"
 
 
 # Required for Chroma and the custom syntax highlighting.
 [markup.highlight]
 noClasses = false
-
-[markup]
-[markup.goldmark]
-[markup.goldmark.extensions]
-[markup.goldmark.extensions.passthrough]
-enable = true
-[markup.goldmark.extensions.passthrough.delimiters]
-block = [['\[', '\]'], ['$$', '$$']]
-inline = [['\(', '\)']]
-
 [services]
 [services.disqus]
 shortname = 'mcbunkus'

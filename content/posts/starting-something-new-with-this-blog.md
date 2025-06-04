@@ -1,14 +1,16 @@
-+++
-title = 'Starting something new with this blog.'
-date = 2025-06-01T20:40:10-05:00
-draft = false
-tags = ['random']
-+++
+---
+title: "Starting something new with this blog."
+date: 2025-06-01T20:40:10-05:00
+draft: false
+tags:
+  - reflection
+---
 
-I originally started this blog to showcase my projects. Like many of us though,
-I struggle with hopping from one project to another without ever finishing them.
-I'm sitting on a pile of broken promises to myself, and this blog is one of
-them.
+I originally started this blog to showcase my projects (which I've since moved
+to another place, so this is the "first ever" post on this blog). Like many of
+us though, I struggle with hopping from one project to another without ever
+finishing them. I'm sitting on a pile of broken promises to myself, and this
+blog is one of them.
 
 This blog was something that I kept coming back to, but struggled to figure out.
 Coincidentally, I was helping my girlfriend on a project for her best friend,
