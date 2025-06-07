@@ -2,21 +2,19 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{ partialCached "head" . }}
+
     <title>
         {{ block "title" . }}
             {{ site.Title }}
         {{ end }}
     </title>
-    
-    {{ partial "head" . }}
 </head>
 
 <body>
 
     <header>
-        {{ partial "header" . }}
+        {{ partialCached "header" . }}
     </header>
 
     <main>
@@ -24,7 +22,7 @@
     </main>
 
     <footer>
-        {{ partial "footer" . }}
+        {{ partialCached "footer" . }}
     </footer>
 
 </body>
