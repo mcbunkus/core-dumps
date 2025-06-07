@@ -2,49 +2,11 @@ baseURL = '/'
 languageCode = 'en-us'
 title = "core dumps"
 summaryLength = 16
+capitalizeListTitles = false
 
 [pagination]
-pagination.pagerSize = 5
+pagerSize = 20
 
-[params]
-contentTypeName = "posts"
-showMenuItems = 2
-centerTheme = true
-
-[languages]
-[languages.en]
-languageName = "English"
-title = "mcbunkus"
-
-[languages.en.params]
-subtitle = "My brain's core dumps for your amusement"
-owner = "Austen LeBeau"
-keywords = ""
-copyright = ""
-menuMore = "Show more"
-readMore = "Read more"
-readOtherPosts = "Read other posts"
-newerPosts = "Newer posts"
-olderPosts = "Older posts"
-missingContentMessage = "Page not found..."
-missingBackButtonLabel = "Back to home page"
-minuteReadingTime = "min read"
-words = "words"
-
-[languages.en.params.logo]
-logoText = "core dumps"
-logoHomeLink = "/"
-
-
-# Required for Chroma and the custom syntax highlighting.
-[markup.highlight]
-noClasses = false
 [services]
 [services.disqus]
-shortname = 'mcbunkus'
-
-[module]
-# this is needed when you fetch the theme as a submodule to your repo.
-# replacements = "github.com/panr/hugo-theme-terminal/4 -> themes/terminal"
-[[module.imports]]
-path = 'github.com/panr/hugo-theme-terminal/v4'
+shortname = 'your-disqus-shortname'

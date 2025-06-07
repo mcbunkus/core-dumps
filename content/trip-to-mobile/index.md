@@ -1,5 +1,5 @@
 ---
-title: "Trip to Mobile"
+title: "My Trip to Mobile"
 date: "2025-06-03T21:23:48-05:00"
 #dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
 authorTwitter: "" #do not include @
@@ -48,4 +48,6 @@ outside. But real quick, there's something interesting right out the door:
 
 {{< figure src="IMG_1434.JPG" caption="H.L Hunley" >}}
 
-This is the first ever combat submarine to sink a warship, dating _all the way back_ to the Civil War. Men crammed inside and turned a crank to spin the propeller.
+This is the first ever combat submarine to sink a warship, dating _all the way
+back_ to the Civil War. Men crammed inside and turned a crank to spin the
+propeller.

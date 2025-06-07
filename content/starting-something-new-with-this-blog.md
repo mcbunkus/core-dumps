@@ -40,6 +40,8 @@ it's written, I guess. I've tried journaling before, but it never hit the spot,
 it feels like I never got what was in my heart out. I'm beginning to think it's
 because I'm telling it to the void, when I really want to tell **_YOU_**.
 
+## So what's next?
+
 So I'm going to do what he did. This place is no longer a portfolio for my
 projects, this is my open journal to y'all, starting now (within reason of
 course, I'm not unhinged, don't worry).

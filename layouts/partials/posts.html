@@ -1,0 +1,15 @@
+{{ $page := .page }}
+{{ $pages := .pages }}
+{{ $paginator := $page.Paginate $pages }}
+
+<div class="posts">
+    {{ range $paginator.Pages }}
+    <div class="post">
+        <time datetime="{{ .Date }}"> {{ .Date  | time.Format "2006.01.02" }} </time>
+        <a href="{{ .RelPermalink }}"> {{ .LinkTitle }} </a>
+        {{ partial "tags" . }}
+    </div>
+    {{ end }}
+    
+    {{ template "_internal/pagination.html" . }}
+</div>
