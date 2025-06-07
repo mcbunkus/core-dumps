@@ -1,3 +1,5 @@
+<meta name="description" content="A personal blog about thoughts, ideas, adventures.">
+
 {{ $css := resources.Get "css/style.css" | resources.Minify | resources.Fingerprint "sha512" }}
 <link rel="stylesheet" href="{{ $css.Permalink }}" integrity=" {{ $css.Data.Integrity }}">
 
