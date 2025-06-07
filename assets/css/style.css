@@ -18,6 +18,10 @@
   --content-padding: 1rem;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   color: var(--foreground);
   background-color: var(--background);
@@ -27,6 +31,8 @@ html {
   opacity: 1;
   background-image: radial-gradient(#1e1e2e 0.9px, #181825 0.9px);
   background-size: 18px 18px;
+
+  scrollbar-color: var(--accent) var(--background);
 }
 
 body {
@@ -34,6 +40,19 @@ body {
   max-width: var(--content-width);
   margin: 0 auto;
   padding: var(--content-padding);
+
+  display: grid;
+  grid-template-rows: 4em 1fr 8rem;
+  width: 100vw;
+  height: 100vh;
+}
+
+main {
+  align-self: center;
+}
+
+main > *:first-child {
+  margin-top: 0;
 }
 
 h1,
@@ -47,6 +66,10 @@ h6 {
 
 a {
   color: var(--accent);
+}
+
+a:hover {
+  color: var(--active);
 }
 
 figure {
@@ -71,17 +94,15 @@ time {
   font-style: italic;
 }
 
-header {
-  margin-bottom: 2.5rem;
-}
-
 header > h1 {
-  margin-top: 0;
+  margin: 0;
 }
 
 footer {
-  text-align: center;
-  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 hr {
@@ -147,9 +168,6 @@ hr {
 }
 
 @media only screen and (max-width: 768px) {
-  header {
-    margin-bottom: 1rem;
-  }
   h1,
   h2,
   h3,
