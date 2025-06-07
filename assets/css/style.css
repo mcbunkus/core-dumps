@@ -2,6 +2,7 @@
 
 :root {
   --background: #1e1e2e;
+  --background-light: #32324b;
   --foreground: #cdd6f4;
   --accent: #cba6f7;
   --disabled: #6c7086;
@@ -20,6 +21,12 @@
 html {
   color: var(--foreground);
   background-color: var(--background);
+
+  /* polka dot background */
+  background-color: #181825;
+  opacity: 1;
+  background-image: radial-gradient(#1e1e2e 0.9px, #181825 0.9px);
+  background-size: 18px 18px;
 }
 
 body {
