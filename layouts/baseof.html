@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    {{ partialCached "head" . }}
+    {{ partial "head" . }}
 
     <title>
         {{ block "title" . }}
@@ -14,7 +14,7 @@
 <body>
 
     <header>
-        {{ partialCached "header" . }}
+        {{ partial "header" . }}
     </header>
 
     <main>
@@ -22,7 +22,7 @@
     </main>
 
     <footer>
-        {{ partialCached "footer" . }}
+        {{ partial "footer" . }}
     </footer>
 
 </body>
