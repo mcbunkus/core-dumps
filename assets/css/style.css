@@ -55,6 +55,14 @@ main > *:first-child {
   margin-top: 0;
 }
 
+nav {
+  font-size: larger;
+  font-family: var(--font-display), var(--font-body), sans-serif;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
 h1,
 h2,
 h3,
@@ -111,8 +119,13 @@ hr {
   filter: brightness(var(--darken));
 }
 
+.posts {
+  margin: 2rem 0;
+}
+
 .tags {
   display: flex;
+  flex-wrap: wrap;
   filter: brightness(var(--darken));
   gap: 0.5rem;
 }
@@ -137,6 +150,7 @@ hr {
   flex-wrap: wrap;
   align-items: stretch;
   gap: 1rem;
+  margin: 2rem 0;
 }
 
 .post-nav a {
@@ -165,6 +179,18 @@ hr {
 
 #disqus_thread {
   margin-top: 1rem;
+}
+
+.tag-count {
+  font-family: var(--font-monospace), monospace;
+  filter: brightness(var(--darken));
+  font-size: small;
+}
+
+.tags-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -210,5 +236,9 @@ hr {
 
   .post > .tags {
     order: 3;
+  }
+
+  .tags-list {
+    justify-content: center;
   }
 }
