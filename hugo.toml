@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://core-dumps.xyz/'
 languageCode = 'en-us'
 title = "core dumps"
 summaryLength = 16
