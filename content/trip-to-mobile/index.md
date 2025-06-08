@@ -38,13 +38,27 @@ Planes are the first thing you see when you walk in:
 
 {{< figure src="IMG_1424.JPG" caption="My dad and uncle would especially appreciate this one" >}}
 
-But this is the memorial park for the _USS Alabama..._ there's more to see
+But this is the memorial park for the _USS Alabama…_ there's more to see
 outside. But real quick, there's something interesting right out the door:
 
-{{< figure src="IMG_1434.JPG" caption="H.L Hunley" >}}
+{{< figure src="IMG_1434.JPG" caption="H.L. Hunley" >}}
 
 This is the first ever combat submarine to sink a warship, dating _all the way
 back_ to the Civil War. Men crammed inside and turned a crank to spin the
-propeller. It seems kind of anachronistic, doesn't it?
+propeller. It seems kind of anachronistic, doesn't it? The real _H.L. Hunley_ sank the _U.S.S Housatonic_ in 1864 with a "torpedo" strapped to a 22 ft pole in the front. The _Hunley_ sunk itself at the same time, not being discovered for another century.
 
+{{< figure src="IMG_1435.JPG" caption="U.S.S. Drum" >}}
 
+Now onto something more interesting: the _U.S.S. Drum_. Named after a type of fish, she was the first of her class (the _Gato_ class) to see combat in WWII. You have a surprising amount of free reign to explore inside and things to clamber over outside.
+
+{{< figure src="IMG_1441.JPG" caption="In front of the conning tower" >}}
+
+You enter through the top of the hull at the bow, down a steep set of stairs into the front torpedo room.
+
+{{< figure src="IMG_1445.JPG" caption="Bow torpedo room" >}}
+
+If you look up, in the middle of the room is an airlock for divers to enter and exit the submarine. You could never pay me enough to do this.
+
+{{< figure src="IMG_1447.JPG" caption="Diver airlock" >}}
+
+{{< figure src="IMG_1449.JPG" caption="Diver airlock" >}}

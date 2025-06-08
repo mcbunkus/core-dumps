@@ -20,8 +20,13 @@
   {{ end }}
 {{ end }}
 
+{{ with resources.Get "js/rss.js" }}
+ <script src="{{ .RelPermalink }}"></script> 
+{{ end }}
 
+{{/*  
 {{ with .OutputFormats.Get "rss" }}
   {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}    
-{{ end }}
+{{ end }} 
+ */}}
     

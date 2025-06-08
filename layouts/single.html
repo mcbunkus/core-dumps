@@ -6,34 +6,34 @@
 
 <article>
 
+    <a id="back" href="{{ .Parent.RelPermalink }}">&larr; Back </a>
 
-<a id="back" href="{{ .Parent.RelPermalink }}">&larr; Back </a>
-<h1> {{ .Title }} </h1>
+    <h1> {{ .Title }} </h1>
 
-<div id="meta">
-    <time datetime="{{ .Date }}"> {{ .Date | time.Format ":date_full" }} </time>
-    {{ partial "tags" . }}
-</div>
-{{ .Content }}
+    <div id="meta">
+        <time datetime="{{ .Date }}"> {{ .Date | time.Format ":date_full" }} </time>
+        {{ partial "tags" . }}
+    </div>
+    {{ .Content }}
 
 
-<div id="nav">
-   <div>
-    {{ with .Prev }}
-        <a href="{{ .RelPermalink}}"> &larr; {{ .LinkTitle }} </a> 
-    {{ end }}
-   </div> 
+    <div id="nav">
+        <div>
+            {{ with .Prev }}
+            <a href="{{ .RelPermalink}}"> &larr; {{ .LinkTitle }} </a>
+            {{ end }}
+        </div>
 
-   <div>
-    {{ with .Next }}
-        <a href="{{ .RelPermalink}}"> {{ .LinkTitle }} &rarr; </a> 
-    {{ end }}
-   </div> 
-</div>
+        <div>
+            {{ with .Next }}
+            <a href="{{ .RelPermalink}}"> {{ .LinkTitle }} &rarr; </a>
+            {{ end }}
+        </div>
+    </div>
 
 </article>
 
-<hr/>
+<hr />
 
 {{ template "_internal/disqus.html" . }}
 

@@ -1,11 +1,33 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/inter.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/oswald.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/jetbrains-mono.woff2') format('woff2');
+  font-display: swap;
+}
 
 $content-width: 768px;
 $content-padding: 1rem;
 
 $font-display: "Oswald", "Inter", sans-serif;
 $font-body: "Inter", sans-serif;
-$font-monospace: "Roboto Mono", monospace;
+$font-monospace: "JetBrains Mono", monospace;
 
 $rosewater: #f5e0dc;
 $flamingo: #f2cdcd;
@@ -53,7 +75,7 @@ html {
   /* polka dot background */
   background-color: $base;
   opacity: 1;
-  background-image: radial-gradient($base 0.9px, $mantle 0.9px);
+  background-image: radial-gradient($base 1.5px, $crust 0.9px);
   background-size: 18px 18px;
 
   scrollbar-color: $mauve $base;
@@ -85,6 +107,28 @@ header {
     font-size: larger;
     font-family: $font-display;
     gap: 0.5rem;
+    align-items: flex-end;
+
+    #rss-copy-btn {
+      background: none;
+
+      padding: 0 0.125rem;
+      margin: 0;
+      border: 0;
+
+      #rss-svg {
+        color: $mauve;
+
+        &:hover {
+          color: $pink;
+        }
+      }
+    }
+    
+    #rss-copy-toast {
+      display: none;
+    }
+
   }
 }
 
@@ -212,7 +256,7 @@ article {
 }
 
 
-.tags-list {
+.taxonomy {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
@@ -224,7 +268,7 @@ article {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: $content-width) {
 
   h1,
   h2,
@@ -274,7 +318,7 @@ article {
     }
   }
 
-  .tags-list {
+  .taxonomy {
     justify-content: center;
   }
 }
