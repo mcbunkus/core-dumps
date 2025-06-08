@@ -6,6 +6,6 @@
 {{ define "main" }}
 
 <h1> #{{ .Title }} </h1>
-{{ partial "posts" (dict "page" . "pages" .Pages ) }}
+{{ partial "pages" (dict "page" . "pages" .Pages ) }}
 
 {{ end }}

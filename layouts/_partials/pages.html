@@ -2,9 +2,9 @@
 {{ $pages := .pages }}
 {{ $paginator := $page.Paginate $pages }}
 
-<div class="posts">
+<div class="page-links">
     {{ range $paginator.Pages }}
-    <div class="post">
+    <div class="page-link">
         <time datetime="{{ .Date }}"> {{ .Date  | time.Format "2006.01.02" }} </time>
         <a href="{{ .RelPermalink }}"> {{ .LinkTitle }} </a>
         {{ partial "tags" . }}

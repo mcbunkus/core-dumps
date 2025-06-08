@@ -2,15 +2,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="A personal blog about my thoughts, ideas, and adventures.">
 
-{{ with resources.Get "css/style.css" }}
-  {{- if hugo.IsDevelopment }}
-    <link rel="stylesheet" href="{{ .RelPermalink }}">
-  {{- else }}
-    {{- with . | minify | fingerprint }}
-      <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
-    {{- end }}
-  {{- end }}
+{{ with resources.Get "sass/main.scss" }}
+  {{ $opts := dict
+    "enableSourceMap" hugo.IsDevelopment
+    "outputStyle" (cond hugo.IsDevelopment "expanded" "compressed")
+    "targetPath" "css/main.css"
+    "vars" site.Params.styles
+  }}
+  {{ with . | toCSS $opts }}
+    {{ if hugo.IsDevelopment }}
+      <link rel="stylesheet" href="{{ .RelPermalink }}">
+    {{ else }}
+      {{ with . | fingerprint }}
+        <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+      {{ end }}
+    {{ end }}
+  {{ end }}
 {{ end }}
+
 
 {{ with .OutputFormats.Get "rss" }}
   {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}    
