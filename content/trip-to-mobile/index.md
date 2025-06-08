@@ -34,7 +34,7 @@ Planes are the first thing you see when you walk in:
 
 {{< figure src="IMG_1420.JPG" caption="B-25" >}}
 
-{{< figure src="IMG_1422.JPG" >}}
+{{< figure src="IMG_1422.JPG" caption="???" >}}
 
 {{< figure src="IMG_1424.JPG" caption="My dad and uncle would especially appreciate this one" >}}
 
@@ -61,4 +61,6 @@ If you look up, in the middle of the room is an airlock for divers to enter and 
 
 {{< figure src="IMG_1447.JPG" caption="Diver airlock" >}}
 
-{{< figure src="IMG_1449.JPG" caption="Diver airlock" >}}
+From here, you can leave enter into the officers' quarters, a long hallway with rooms and a wardroom.
+
+{{< figure src="IMG_1449.JPG" caption="Entrance into the officers' quarters, leading out of the torpedo room" >}}
