@@ -6,7 +6,7 @@
     {{ range $paginator.Pages }}
     <div class="page-link">
         <time datetime="{{ .Date }}"> {{ .Date  | time.Format "2006.01.02" }} </time>
-        <a href="{{ .RelPermalink }}"> {{ .LinkTitle }} </a>
+        <a href="{{ .RelPermalink }}"> {{ .LinkTitle | strings.Title }} </a>
         {{ partial "tags" . }}
     </div>
     {{ end }}

@@ -1,5 +1,5 @@
 ---
-title: "Starting something new with this blog."
+title: "starting something new with this blog"
 date: 2025-06-01T20:40:10-05:00
 draft: false
 tags:
