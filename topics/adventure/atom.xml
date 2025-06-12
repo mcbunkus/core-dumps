@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - adventure</title>
+    <link rel="self" type="application/atom+xml" href="https://example.com/topics/adventure/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://example.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-06-03T21:23:48-05:00</updated>
+    <id>https://example.com/topics/adventure/atom.xml</id>
+    <entry xml:lang="en">
+        <title>My Trip to Mobile</title>
+        <published>2025-06-03T21:23:48-05:00</published>
+        <updated>2025-06-03T21:23:48-05:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://example.com/trip-to-mobile/"/>
+        <id>https://example.com/trip-to-mobile/</id>
+        
+        <content type="html" xml:base="https://example.com/trip-to-mobile/">&lt;p&gt;You don&#x27;t realize you&#x27;re aging until something happens that makes you go &quot;oh yeah, that happens when you reach this age&quot;. A friend from college, who you haven&#x27;t seen since you graduated, getting married is one such thing.&lt;&#x2F;p&gt;
+&lt;p&gt;I can only describe Jm (yes, Jm) in Hunter S. Thompson&#x27;s words: &lt;em&gt;There he goes, one of God&#x27;s own prototypes. A high-powered mutant of some kind never even considered for mass production.&lt;&#x2F;em&gt; He works hard and parties harder, and he can make friends with anyone. I&#x27;m not the type of person you&#x27;d normally find in his retinue, but I&#x27;m his friend nonetheless.&lt;&#x2F;p&gt;
+&lt;p&gt;He got married this weekend in Mobile to his college sweetheart. I&#x27;ve never really met her but once, but it&#x27;s readily apparent that they&#x27;re a perfect match. I&#x27;m really happy for them, and thankful that I got to be there for their wedding. The venue was fantastic (the Fort Conde Inn!), and the ceremony was timed perfectly so that it took place during golden hour. Just as the ceremony began, a venue across the street started bumping really bad club music. It was strangely appropriate for their wedding.&lt;&#x2F;p&gt;
+&lt;p&gt;Photos were understandably not allowed during the ceremony, so I might have to come back and rip some from him (with his permission of course) to post for y&#x27;all to see. But before I left Mobile, I stopped at the USS Alabama Battleship Memorial Park, so I do have some pictures to share! Everyone who knows me knows it&#x27;s no secret I &lt;em&gt;loooove&lt;&#x2F;em&gt; airplanes, and I like old things. There&#x27;s plenty of that to see there.&lt;&#x2F;p&gt;
+&lt;p&gt;Planes are the first thing you see when you walk in:&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;IMG_1419.JPG&quot; alt=&quot;&quot; &gt;
+    
+    &lt;figcaption&gt;Tuskegee Airman&amp;#x27;s P-51&lt;&#x2F;figcaption&gt;
+    
+    &lt;&#x2F;figure&gt;&lt;figure&gt;
+    &lt;img src=&quot;IMG_1420.JPG&quot; alt=&quot;&quot; &gt;
+    
+    &lt;figcaption&gt;B-25&lt;&#x2F;figcaption&gt;
+    
+    &lt;&#x2F;figure&gt;&lt;figure&gt;
+    &lt;img src=&quot;IMG_1422.JPG&quot; alt=&quot;&quot; &gt;
+    
+    &lt;figcaption&gt;I wasn&amp;#x27;t sure what this was at first, but looking around online, I think this is an F-86L Sabre&lt;&#x2F;figcaption&gt;
+    
+    &lt;&#x2F;figure&gt;&lt;figure&gt;
+    &lt;img src=&quot;IMG_1424.JPG&quot; alt=&quot;&quot; &gt;
+    
+    &lt;figcaption&gt;My dad and uncle would especially appreciate this one&lt;&#x2F;figcaption&gt;
+    
+    &lt;&#x2F;figure&gt;
+&lt;p&gt;But this is the memorial park for the &lt;em&gt;USS Alabama…&lt;&#x2F;em&gt; there&#x27;s more to see
+outside. But there&#x27;s something interesting right outside the door:&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;IMG_1434.JPG&quot; alt=&quot;&quot; &gt;
+    
+    &lt;figcaption&gt;H.L. Hunley&lt;&#x2F;figcaption&gt;
+    
+    &lt;&#x2F;figure&gt;
+&lt;p&gt;This is the first ever combat submarine to sink a warship, dating &lt;em&gt;all the way
+back&lt;&#x2F;em&gt; to the Civil War. Men crammed inside and turned a crank to spin the
+propeller. It seems kind of anachronistic, doesn&#x27;t it? The real &lt;em&gt;H.L. Hunley&lt;&#x2F;em&gt; sank the &lt;em&gt;U.S.S Housatonic&lt;&#x2F;em&gt; in 1864 with a &quot;torpedo&quot; strapped to a 22 ft pole in the front. The &lt;em&gt;Hunley&lt;&#x2F;em&gt; sunk itself at the same time, not being discovered for another hundred years.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;IMG_1435.JPG&quot; alt=&quot;&quot; &gt;
+    
+    &lt;figcaption&gt;U.S.S. Drum&lt;&#x2F;figcaption&gt;
+    
+    &lt;&#x2F;figure&gt;
+&lt;p&gt;Now onto something more recognizable: the &lt;em&gt;U.S.S. Drum&lt;&#x2F;em&gt;. Named after a type of fish, she was the first of her class (the &lt;em&gt;Gato&lt;&#x2F;em&gt; class) to see combat in WWII. You have a surprising amount of free reign to explore both inside and outside.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;IMG_1441.JPG&quot; alt=&quot;&quot; &gt;
+    
+    &lt;figcaption&gt;In front of the conning tower. You can sit in this AA gun and turn the cranks, it actually moves&lt;&#x2F;figcaption&gt;
+    
+    &lt;&#x2F;figure&gt;
+&lt;p&gt;You enter through the top of the hull at the bow, down a steep set of stairs into the front torpedo room.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;IMG_1445.JPG&quot; alt=&quot;&quot; &gt;
+    
+    &lt;figcaption&gt;Bow torpedo room&lt;&#x2F;figcaption&gt;
+    
+    &lt;&#x2F;figure&gt;
+&lt;p&gt;If you look up, in the middle of the room is an airlock for divers to enter and exit the submarine. You could never pay me enough to do this.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;IMG_1447.JPG&quot; alt=&quot;&quot; &gt;
+    
+    &lt;figcaption&gt;Diver airlock&lt;&#x2F;figcaption&gt;
+    
+    &lt;&#x2F;figure&gt;
+&lt;p&gt;From here, you can leave enter into the officers&#x27; quarters, a long hallway with rooms and a wardroom.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;IMG_1449.JPG&quot; alt=&quot;&quot; &gt;
+    
+    &lt;figcaption&gt;Entrance into the officers&amp;#x27; quarters, leading out of the torpedo room&lt;&#x2F;figcaption&gt;
+    
+    &lt;&#x2F;figure&gt;&lt;figure&gt;
+    &lt;img src=&quot;IMG_1454.JPG&quot; alt=&quot;&quot; &gt;
+    
+    &lt;figcaption&gt;The officers&amp;#x27; wardroom, it&amp;#x27;s their own dining&amp;#x2F;hangout room separate from enlisted men&lt;&#x2F;figcaption&gt;
+    
+    &lt;&#x2F;figure&gt;
+&lt;p&gt;After this point I started taking videos instead of pictures. I might capture some frames in the future to share here, but I also don&#x27;t want to spoil the whole tour for you. :)&lt;&#x2F;p&gt;
+&lt;p&gt;Last but not least: the &lt;em&gt;U.S.S Alabama&lt;&#x2F;em&gt;. This is sadly the only picture I took. Instead, I took 2 hours of raw footage. Most of it is me tripping, getting turned around and lost, and trying to narrate what I&#x27;m seeing but getting distracted. I might go through the footage and capture some frames someday, but I&#x27;m not ready for that task yet.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;IMG_1474.JPG&quot; alt=&quot;&quot; &gt;
+    
+    &lt;figcaption&gt;She&amp;#x27;s much bigger than she looks in this picture... big enough you can get lost inside if you&amp;#x27;re not paying attention to the arrows&lt;&#x2F;figcaption&gt;
+    
+    &lt;&#x2F;figure&gt;</content>
+        
+    </entry>
+</feed>

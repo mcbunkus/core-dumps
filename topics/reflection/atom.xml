@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - reflection</title>
+    <link rel="self" type="application/atom+xml" href="https://example.com/topics/reflection/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://example.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-06-01T20:40:10-05:00</updated>
+    <id>https://example.com/topics/reflection/atom.xml</id>
+    <entry xml:lang="en">
+        <title>starting something new with this blog</title>
+        <published>2025-06-01T20:40:10-05:00</published>
+        <updated>2025-06-01T20:40:10-05:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://example.com/starting-something-new-with-this-blog/"/>
+        <id>https://example.com/starting-something-new-with-this-blog/</id>
+        
+        <content type="html" xml:base="https://example.com/starting-something-new-with-this-blog/">&lt;p&gt;I originally started this blog to showcase my projects (which I&#x27;ve since moved
+to another place, so this is the &quot;first ever&quot; post on this blog). Like many of
+us though, I struggle with hopping from one project to another without ever
+finishing them. I&#x27;m sitting on a pile of broken promises to myself, and this
+blog is one of them.&lt;&#x2F;p&gt;
+&lt;p&gt;This blog was something that I kept coming back to, but struggled to figure out.
+Coincidentally, I was helping my girlfriend on a project for her best friend,
+whose father tragically passed away years ago. I won&#x27;t go into further detail
+out of respect, but the reason I mentioned it is because he kept a blog. My
+girlfriend found it on the Wayback Machine, and I&#x27;ve been helping her transcribe
+it all into a document for her friend.&lt;&#x2F;p&gt;
+&lt;p&gt;Wow, are his posts are a time capsule from the 2000s, in all its middle-aged,
+curmudgeonly, but lovable glory. He truly had no filter; whatever was on his
+mind, he said... but with self-reflection and honesty. His posts were an open
+letter to his family and friends about what was on his mind, his hopes, desires,
+what he was angry about and what he was proud of. I&#x27;m sure you&#x27;re saying, &quot;DUH,
+Austen, that&#x27;s what blogs are.&quot; Yeah okay, I know. I just never considered that
+anyone would actually read my blog, but going through his posts and seeing his
+family and friends interacting with them struck a chord with me.&lt;&#x2F;p&gt;
+&lt;p&gt;Those who know me know I&#x27;m a very shy and introverted person, and to be honest
+I&#x27;m sensitive to a fault. Not only sensitive to me, but to others too. This is
+why I struggle to find the words to say when meeting new people, or seeing
+people I don&#x27;t see often... I lock up. It&#x27;s very, very rare when I make a real
+connection to someone. I promise this is not a self-pity party, I said all this
+because, in my opinion, I&#x27;m much better on paper. I (admittedly) put too much
+stress on myself, thinking about what to say and how to say it so my message
+gets across the way I intended. I have the time to formulate my thoughts when
+it&#x27;s written, I guess. I&#x27;ve tried journaling before, but it never hit the spot,
+it feels like I never got what was in my heart out. I&#x27;m beginning to think it&#x27;s
+because I&#x27;m telling it to the void, when I really want to tell &lt;strong&gt;&lt;em&gt;YOU&lt;&#x2F;em&gt;&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;so-what-s-next&quot;&gt;So what&#x27;s next?&lt;&#x2F;h2&gt;
+&lt;p&gt;So I&#x27;m going to do what he did. This place is no longer a portfolio for my
+projects, this is my open journal to y&#x27;all, starting now (within reason of
+course, I&#x27;m not unhinged, don&#x27;t worry).&lt;&#x2F;p&gt;
+&lt;p&gt;My girlfriend will probably be the only one that will ever read these, but if
+you&#x27;re not her and you&#x27;re reading this, know that it means a lot to me that you
+took the time to read. I hope you&#x27;re having a great day, because you&#x27;re
+incredible. :)&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
