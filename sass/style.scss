@@ -105,11 +105,16 @@ figure {
     }
 }
 
+pre {
+    padding: 1rem;
+    border-radius: 4px;
+}
+
 .posts {
     list-style-type: none;
     padding: 0;
 
-    li {
+    .post {
         display: flex;
         flex-wrap: wrap;
         gap: 1rem;
