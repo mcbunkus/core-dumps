@@ -4,6 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="My core dumps: a blog about my thoughts, feelings, and adventures.">
         <link rel="stylesheet" href="{{ get_url(path='style.css') }}">
         <title>
             {% if page.title %}
@@ -17,27 +18,23 @@
     <body>
 
         <header>
-            <h1>
-                {% if page.title %}
-                {{ page.title | lower }}
-                {% elif section.title %}
-                {{ section.title | lower }}
-                {% elif term.name %}
-                #{{ term.name | lower }}
-                {% elif taxonomy.name %}
-                #{{ taxonomy.name | lower }}
-                {% endif %}
-            </h1>
+            {% if page.title %}
+            <h1> {{ page.title | lower }} </h1>
+            {% elif section.title %}
+            <h1> {{ section.title | lower }} </h1>
+            {% elif term.name %}
+            <h1> {{ term.name | lower }} </h1>
+            {% elif taxonomy.name %}
+            <h1> {{ taxonomy.name | lower }} </h1>
+            {% endif %}
 
             <nav>
-                <ul>
-                    {% for link in config.extra.nav %}
-                    <li> <a href="{{ link.url | safe }}">{{ link.name }}</a> </li>
-                    {% if not loop.last %}
-                    <span class="divider">/</span>
-                    {% endif %}
-                    {% endfor %}
-                </ul>
+                {% for link in config.extra.nav %}
+                <a href="{{ link.url | safe }}">{{ link.name }}</a>
+                {% if not loop.last %}
+                <span class="divider">/</span>
+                {% endif %}
+                {% endfor %}
             </nav>
         </header>
 

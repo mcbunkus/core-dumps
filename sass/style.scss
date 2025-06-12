@@ -29,6 +29,10 @@ header {
     justify-content: space-between;
     align-items: center;
 
+    &>*:only-child {
+        margin: auto;
+    }
+
     h1 {
         margin: 0;
         margin-right: 2.5rem;
@@ -36,17 +40,14 @@ header {
 
     nav {
 
-        ul {
-            padding: 0;
-            list-style-type: none;
-            display: flex;
-            gap: 0.5rem;
-            align-items: baseline;
+        padding: 0;
+        display: flex;
+        gap: 0.5rem;
+        align-items: baseline;
 
-            .divider {
-                color: $foreground;
-                filter: $darken;
-            }
+        .divider {
+            color: $foreground;
+            filter: $darken;
         }
     }
 }
@@ -159,6 +160,12 @@ figure {
     font-style: italic;
 }
 
+.four-oh-four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 @media screen and (max-width: 600px) {
     .posts {
         li {
@@ -180,6 +187,4 @@ figure {
             }
         }
     }
-
-
 }
