@@ -1,0 +1,22 @@
+baseURL = 'https://core-dumps.xyz'
+languageCode = 'en-us'
+title = 'core dumps'
+capitalizeListTitles = false
+
+[pagination]
+pagerSize = 2
+
+
+[taxonomies]
+topic = "topics"
+
+[menus]
+[[menus.main]]
+name = "home"
+pageRef = "/"
+weight = 10
+
+[[menus.main]]
+name = "topics"
+pageRef = "/topics"
+weight = 20

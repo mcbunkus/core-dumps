@@ -1,7 +1,0 @@
-{% if page.taxonomies["topics"] %}
-<div class="topics">
-    {% for topic in page.taxonomies["topics"] %}
-    <a href="{{ get_taxonomy_url(kind="topics", name=topic) }}">#{{ topic }}</a>
-    {% endfor %}
-</div>
-{% endif %}

@@ -1,0 +1,5 @@
+{{ define "main" }}
+{{ .Content }}
+
+{{ partial "posts" (dict "page" . "pages" .Site.RegularPages) }}
+{{ end }}

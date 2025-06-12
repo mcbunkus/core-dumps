@@ -1,7 +1,5 @@
 ---
 title: "core dumps"
-paginate_by: 20
-sort_by: "date"
 ---
 
 A core dump is the recorded state of a computer program at a specific point in

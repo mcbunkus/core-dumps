@@ -2,9 +2,8 @@
 title: "starting something new with this blog"
 date: 2025-06-01T20:40:10-05:00
 draft: false
-taxonomies:
-  topics:
-    - reflection
+topics:
+  - reflection
 ---
 
 I originally started this blog to showcase my projects (which I've since moved

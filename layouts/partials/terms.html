@@ -1,0 +1,7 @@
+<span class="page-terms">
+    {{ with .page.GetTerms .taxonomy }}
+    {{ range . }}
+    <a href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a>
+    {{ end }}
+    {{ end }}
+</span>

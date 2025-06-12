@@ -1,0 +1,4 @@
+{{ define "main" }}
+{{ .Content }}
+{{ partial "posts" (dict "page" . "pages" .Pages) }}
+{{ end }}
