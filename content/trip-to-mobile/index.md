@@ -1,8 +1,9 @@
 ---
 title: My Trip to Mobile
 date: 2025-06-03T21:23:48-05:00
-tags:
-  - adventure
+taxonomies:
+  topics:
+    - adventure
 draft: false
 ---
 
@@ -16,45 +17,45 @@ Photos were understandably not allowed during the ceremony, so I might have to c
 
 Planes are the first thing you see when you walk in:
 
-{{< figure src="IMG_1419.JPG" caption="Tuskegee Airman's P-51" >}}
+{{ figure(src="IMG_1419.JPG", caption="Tuskegee Airman's P-51") }}
 
-{{< figure src="IMG_1420.JPG" caption="B-25" >}}
+{{ figure(src="IMG_1420.JPG", caption="B-25") }}
 
-{{< figure src="IMG_1422.JPG" caption="I wasn't sure what this was at first, but looking around online, I think this is an F-86L Sabre" >}}
+{{ figure(src="IMG_1422.JPG", caption="I wasn't sure what this was at first, but looking around online, I think this is an F-86L Sabre") }}
 
-{{< figure src="IMG_1424.JPG" caption="My dad and uncle would especially appreciate this one" >}}
+{{ figure(src="IMG_1424.JPG", caption="My dad and uncle would especially appreciate this one") }}
 
 But this is the memorial park for the _USS Alabama…_ there's more to see
 outside. But there's something interesting right outside the door:
 
-{{< figure src="IMG_1434.JPG" caption="H.L. Hunley" >}}
+{{ figure(src="IMG_1434.JPG", caption="H.L. Hunley") }}
 
 This is the first ever combat submarine to sink a warship, dating _all the way
 back_ to the Civil War. Men crammed inside and turned a crank to spin the
 propeller. It seems kind of anachronistic, doesn't it? The real _H.L. Hunley_ sank the _U.S.S Housatonic_ in 1864 with a "torpedo" strapped to a 22 ft pole in the front. The _Hunley_ sunk itself at the same time, not being discovered for another hundred years.
 
-{{< figure src="IMG_1435.JPG" caption="U.S.S. Drum" >}}
+{{ figure(src="IMG_1435.JPG", caption="U.S.S. Drum") }}
 
 Now onto something more recognizable: the _U.S.S. Drum_. Named after a type of fish, she was the first of her class (the _Gato_ class) to see combat in WWII. You have a surprising amount of free reign to explore both inside and outside.
 
-{{< figure src="IMG_1441.JPG" caption="In front of the conning tower. You can sit in this AA gun and turn the cranks, it actually moves" >}}
+{{ figure(src="IMG_1441.JPG", caption="In front of the conning tower. You can sit in this AA gun and turn the cranks, it actually moves") }}
 
 You enter through the top of the hull at the bow, down a steep set of stairs into the front torpedo room.
 
-{{< figure src="IMG_1445.JPG" caption="Bow torpedo room" >}}
+{{ figure(src="IMG_1445.JPG", caption="Bow torpedo room") }}
 
 If you look up, in the middle of the room is an airlock for divers to enter and exit the submarine. You could never pay me enough to do this.
 
-{{< figure src="IMG_1447.JPG" caption="Diver airlock" >}}
+{{ figure(src="IMG_1447.JPG", caption="Diver airlock") }}
 
 From here, you can leave enter into the officers' quarters, a long hallway with rooms and a wardroom.
 
-{{< figure src="IMG_1449.JPG" caption="Entrance into the officers' quarters, leading out of the torpedo room" >}}
+{{ figure(src="IMG_1449.JPG", caption="Entrance into the officers' quarters, leading out of the torpedo room") }}
 
-{{< figure src="IMG_1454.JPG" caption="The officers' wardroom, it's their own dining/hangout room separate from enlisted men" >}}
+{{ figure(src="IMG_1454.JPG", caption="The officers' wardroom, it's their own dining/hangout room separate from enlisted men") }}
 
 After this point I started taking videos instead of pictures. I might capture some frames in the future to share here, but I also don't want to spoil the whole tour for you. :)
 
 Last but not least: the _U.S.S Alabama_. This is sadly the only picture I took. Instead, I took 2 hours of raw footage. Most of it is me tripping, getting turned around and lost, and trying to narrate what I'm seeing but getting distracted. I might go through the footage and capture some frames someday, but I'm not ready for that task yet.
 
-{{< figure src="IMG_1474.JPG" caption="She's much bigger than she looks in this picture... big enough you can get lost inside if you're not paying attention to the arrows" >}}
+{{ figure(src="IMG_1474.JPG", caption="She's much bigger than she looks in this picture... big enough you can get lost inside if you're not paying attention to the arrows") }}

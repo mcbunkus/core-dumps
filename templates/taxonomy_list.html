@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+<div class="taxonomy-list">
+    {% for term in terms %}
+    <div class="taxonomy-term">
+        <a href="{{ term.permalink | safe }}">#{{ term.name }}</a>
+        <span>({{ term.page_count }})</span>
+
+    </div>
+    {% endfor %}
+</div>
+
+{% endblock main %}

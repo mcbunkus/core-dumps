@@ -1,7 +1,0 @@
-{{ with .GetTerms "tags" }}
-<div class="page-tags">
-    {{ range . }}
-        <a href="{{ .RelPermalink }}"> #{{ .LinkTitle }} </a>
-    {{ end }}
-</div>
-{{ end }}

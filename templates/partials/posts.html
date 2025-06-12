@@ -1,0 +1,18 @@
+<ul class="posts">
+    {% for page in paginator.pages %}
+    <li>
+        <time datetime="{{ page.date }}">{{ page.date | date(format="%Y-%m-%d") }}</time>
+        <a href="{{ page.permalink | safe }}">{{ page.title | lower }}</a>
+        {% include "partials/topics.html" %}
+    </li>
+    {% endfor %}
+</ul>
+
+<nav class="pagination">
+    {% if paginator.previous %}
+    <a class="previous" href="{{ paginator.previous }}">&larr; Previous</a>
+    {% endif %}
+    {% if paginator.next %}
+    <a class="next" href="{{ paginator.next }}">Next &rarr;</a>
+    {% endif %}
+</nav>

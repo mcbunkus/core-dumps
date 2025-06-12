@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{ get_url(path='style.css') }}">
+        <title>
+            {% if page.title %}
+            {{ page.title }}
+            {% elif section.title %}
+            {{ section.title }}
+            {% endif %}
+        </title>
+    </head>
+
+    <body>
+
+        <header>
+            <h1>
+                {% if page.title %}
+                {{ page.title | lower }}
+                {% elif section.title %}
+                {{ section.title | lower }}
+                {% elif term.name %}
+                #{{ term.name | lower }}
+                {% elif taxonomy.name %}
+                #{{ taxonomy.name | lower }}
+                {% endif %}
+            </h1>
+
+            <nav>
+                <ul>
+                    {% for link in config.extra.nav %}
+                    <li> <a href="{{ link.url | safe }}">{{ link.name }}</a> </li>
+                    {% if not loop.last %}
+                    <span class="divider">/</span>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </nav>
+        </header>
+
+        <main> {% block main %} {% endblock main %} </main>
+
+        <footer>
+            <p>
+                &copy; {{ now() | date(format="%Y") }} Austen LeBeau. All rights reserved.
+            </p>
+        </footer>
+
+    </body>
+
+</html>

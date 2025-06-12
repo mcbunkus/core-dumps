@@ -1,0 +1,6 @@
+<figure{% if class %} class="{{ class }}" {% endif %}>
+    <img src="{{ src | safe }}" alt="{{ alt | default(value="") }}" {% if width %} width="{{ width }}" {% endif %}>
+    {% if caption %}
+    <figcaption>{{ caption }}</figcaption>
+    {% endif %}
+    </figure>

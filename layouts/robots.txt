@@ -1,4 +1,0 @@
-User-agent: *
-{{ range where .Pages "Kind" "term" }}
-Disallow: {{ .RelPermalink }}
-{{ end }}

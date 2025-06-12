@@ -1,4 +1,8 @@
-# Core Dumps
+---
+title: "core dumps"
+paginate_by: 20
+sort_by: "date"
+---
 
 A core dump is the recorded state of a computer program at a specific point in
 time, usually when it crashes. They're snapshots of what the computer was
