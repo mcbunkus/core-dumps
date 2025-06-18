@@ -1,0 +1,21 @@
+---
+import Date from "./Date.astro";
+import Topics from "./Topics.astro";
+
+interface Props {
+    url: string;
+    title: string;
+    date: Date;
+    topics: string[];
+}
+
+const { url, title, date, topics } = Astro.props;
+---
+
+<div class="flex flex-wrap gap-x-4 items-baseline my-4 sm:my-0">
+    <Date class="order-2 sm:order-1" date={date} />
+    <a class="order-1 sm:order-2 w-full sm:w-auto" href={url}
+        >{title.toLocaleLowerCase()}</a
+    >
+    <Topics class="order-3" topics={topics} />
+</div>

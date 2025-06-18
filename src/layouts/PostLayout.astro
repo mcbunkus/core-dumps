@@ -1,0 +1,24 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+import Date from "../components/Date.astro";
+import Topics from "../components/Topics.astro";
+
+interface Props {
+    title: string;
+    pubDate: Date;
+    topics: string[];
+}
+
+const { title, pubDate, topics } = Astro.props;
+---
+
+<BaseLayout title={title}>
+    <div class="flex my-2 items-baseline gap-4">
+        <Date date={pubDate} />
+        <Topics topics={topics} />
+    </div>
+
+    <article>
+        <slot />
+    </article>
+</BaseLayout>

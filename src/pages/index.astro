@@ -1,16 +1,36 @@
 ---
+import PostLink from "../components/PostLink.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
 
+import { getCollection } from "astro:content";
+
+const allPosts = await getCollection("posts");
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<BaseLayout title="core dumps">
+	<p>
+		A core dump is the recorded state of a computer program at a specific
+		point in time, usually when it crashes. They're snapshots of what the
+		computer was "thinking" about when it crashed. This blog is a collection
+		of my core dumps, everything that's in my heart and on my mind. It's an
+		open journal for my friends and family to read, about my thoughts,
+		desires, and adventures.
+	</p>
+	<p>
+		In other words, a place for me to shamelessly yap as much as I want.
+		Welcome!
+	</p>
+
+	<div class="my-4">
+		{
+			allPosts.map((post) => (
+				<PostLink
+					url={`posts/${post.id}`}
+					title={post.data.title}
+					date={post.data.pubDate}
+					topics={post.data.topics}
+				/>
+			))
+		}
+	</div>
+</BaseLayout>

@@ -1,7 +1,6 @@
 ---
 title: "starting something new with this blog"
-date: 2025-06-01T20:40:10-05:00
-draft: false
+pubDate: 2025-06-01T20:40:10-05:00
 topics:
   - reflection
 ---
