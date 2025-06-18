@@ -27,7 +27,7 @@ const loweredTitle = title.toLocaleLowerCase();
     </head>
     <body transition:animate="fade">
         <Header title={loweredTitle} />
-        <main class="sm:my-4"><slot /></main>
+        <main><slot /></main>
         <Footer />
     </body>
 </html>

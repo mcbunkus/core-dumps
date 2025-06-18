@@ -12,10 +12,10 @@ interface Props {
 const { url, title, date, topics } = Astro.props;
 ---
 
-<div class="flex flex-wrap gap-x-4 items-baseline my-4 sm:my-0">
+<div class="flex flex-wrap gap-x-2 my-2 sm:my-0 sm:items-baseline">
     <Date class="order-2 sm:order-1" date={date} />
     <a
-        class="order-1 sm:order-2 w-full sm:w-auto text-2xl sm:text-base"
+        class="order-1 w-full text-xl sm:text-base sm:w-fit sm:order-2"
         href={url}>{title.toLocaleLowerCase()}</a
     >
     <Topics class="order-3" topics={topics} />

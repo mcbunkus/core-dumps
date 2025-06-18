@@ -2,20 +2,22 @@
 import BaseLayout from "./BaseLayout.astro";
 import Date from "../components/Date.astro";
 import Topics from "../components/Topics.astro";
+import type { CollectionEntry } from "astro:content";
+import { loadRenderers } from "astro:container";
 
 interface Props {
-    title: string;
-    pubDate: Date;
-    topics: string[];
+    post: CollectionEntry<"posts">;
+    prev?: CollectionEntry<"posts">;
+    next?: CollectionEntry<"posts">;
 }
 
-const { title, pubDate, topics } = Astro.props;
+const { post, prev, next } = Astro.props;
 ---
 
-<BaseLayout title={title}>
-    <div class="flex my-2 items-baseline gap-4">
-        <Date date={pubDate} />
-        <Topics topics={topics} />
+<BaseLayout title={post.data.title}>
+    <div class="flex flex-col gap-2 items-center mb-4 sm:flex-row">
+        <Date date={post.data.pubDate} />
+        <Topics topics={post.data.topics} />
     </div>
 
     <article>

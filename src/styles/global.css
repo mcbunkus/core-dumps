@@ -1,19 +1,30 @@
 @import "tailwindcss";
 
+@theme {
+    --color-bg: var(--color-stone-200);
+    --color-fg: var(--color-stone-700);
+    --color-accent: var(--color-violet-600);
+    --color-accent-hover: var(--color-violet-900);
+}
+
 @layer base {
     body {
         @apply min-h-screen max-w-3xl mx-auto p-6;
         @apply flex flex-col justify-center;
-        @apply bg-stone-100 text-stone-700;
+        @apply bg-bg text-fg;
     }
 
+
     footer {
-        @apply text-center my-4;
+        @apply text-center my-6;
     }
+
 
     p {
         @apply my-2;
     }
+
+    main {}
 
     h1,
     h2,
@@ -21,39 +32,39 @@
     h4,
     h5,
     h6 {
-        @apply font-semibold my-4;
+        @apply font-semibold text-center my-4 sm:text-left;
     }
 
     h1 {
-        @apply text-4xl;
+        @apply text-3xl sm:text-4xl;
     }
 
     h2 {
-        @apply text-3xl
+        @apply text-2xl sm:text-3xl;
     }
 
     h3 {
-        @apply text-2xl
+        @apply text-xl sm:text-2xl;
     }
 
     h4 {
-        @apply text-xl;
+        @apply text-lg sm:text-xl;
     }
 
     h5 {
-        @apply text-lg;
+        @apply italic sm:text-lg;
     }
 
     h6 {
-        @apply italic;
+        @apply italic font-medium;
     }
 
     img {
-        @apply mx-auto m-4 rounded sm:shadow-lg;
+        @apply rounded sm:shadow-2xl mx-auto my-2;
     }
 
     a {
-        @apply text-emerald-500 hover:text-emerald-400;
+        @apply text-accent hover:text-accent-hover transition-colors;
     }
 
     figure {
