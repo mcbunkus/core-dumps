@@ -6,19 +6,24 @@
         @apply flex flex-col justify-center;
         @apply bg-stone-100 text-stone-700;
     }
-    
+
     footer {
         @apply text-center my-4;
     }
-    
+
     p {
         @apply my-2;
     }
-    
-    h1, h2, h3, h4, h5, h6 {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
         @apply font-semibold my-4;
     }
-    
+
     h1 {
         @apply text-4xl;
     }
@@ -30,24 +35,32 @@
     h3 {
         @apply text-2xl
     }
-    
+
     h4 {
         @apply text-xl;
     }
-    
+
     h5 {
         @apply text-lg;
     }
-    
+
     h6 {
         @apply italic;
     }
-    
+
     img {
-        @apply mx-auto m-6 rounded sm:shadow-lg;
+        @apply mx-auto m-4 rounded sm:shadow-lg;
     }
-    
+
     a {
         @apply text-emerald-500 hover:text-emerald-400;
+    }
+
+    figure {
+        @apply my-8;
+    }
+
+    figcaption {
+        @apply text-center italic;
     }
 }

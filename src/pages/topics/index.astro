@@ -8,6 +8,6 @@ const topics = [...new Set(allPosts.map((post) => post.data.topics).flat())];
 
 <BaseLayout title="topics">
     <div class="flex gap-2">
-        {topics.map((topic) => <a href={`topics/${topic}`}>#{topic}</a>)}
+        {topics.map((topic) => <a href={`/topics/${topic}`}>#{topic}</a>)}
     </div>
 </BaseLayout>

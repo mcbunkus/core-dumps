@@ -11,9 +11,11 @@ const links = [
 ];
 ---
 
-<header class="flex flex-wrap-reverse justify-between my-4 items-center gap-4">
+<header
+    class="flex flex-col-reverse items-end sm:flex-row flex-wrap-reverse justify-between my-4 items-center gap-4"
+>
     <h1 class="m-0 mr-4">{title}</h1>
-    <nav class="flex gap-2">
+    <nav class="flex gap-2 text-2xl sm:text-base">
         {
             links.map((link, index) => (
                 <>

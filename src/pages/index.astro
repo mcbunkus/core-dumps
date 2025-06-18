@@ -25,7 +25,7 @@ const allPosts = await getCollection("posts");
 		{
 			allPosts.map((post) => (
 				<PostLink
-					url={`posts/${post.id}`}
+					url={`/posts/${post.id}`}
 					title={post.data.title}
 					date={post.data.pubDate}
 					topics={post.data.topics}
