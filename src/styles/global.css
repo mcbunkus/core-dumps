@@ -11,20 +11,19 @@
     body {
         @apply min-h-screen max-w-3xl mx-auto p-6;
         @apply flex flex-col justify-center;
-        @apply bg-bg text-fg;
+        @apply bg-linear-to-b from-bg to-white text-fg;
     }
-
 
     footer {
         @apply text-center my-6;
     }
 
-
     p {
-        @apply my-2;
+        @apply my-4;
     }
 
-    main {}
+    main {
+    }
 
     h1,
     h2,
@@ -60,7 +59,7 @@
     }
 
     img {
-        @apply rounded sm:shadow-2xl mx-auto my-2;
+        @apply rounded sm:shadow-xl mx-auto my-2;
     }
 
     a {

@@ -1,13 +1,32 @@
 ---
 import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import type { CollectionEntry } from "astro:content";
 
 const allPosts = await getCollection("posts");
-const topics = [...new Set(allPosts.map((post) => post.data.topics).flat())];
+
+// all unique topics and their count
+const count = new Map<string, number>();
+for (const post of allPosts) {
+    for (const topic of post.data.topics) {
+        count.set(topic, (count.get(topic) ?? 0) + 1);
+    }
+}
+
+const topics = [...count.keys()];
 ---
 
 <BaseLayout title="topics">
     <div class="flex justify-center gap-4 text-xl sm:text-2xl sm:justify-start">
-        {topics.map((topic) => <a href={`/topics/${topic}`}>#{topic}</a>)}
+        {
+            topics.map((topic) => (
+                <span class="flex items-baseline">
+                    <a href={`/topics/${topic}`}>#{topic}</a>
+                    <span class="text-lg font-mono font-semibold">
+                        ({count.get(topic)})
+                    </span>
+                </span>
+            ))
+        }
     </div>
 </BaseLayout>

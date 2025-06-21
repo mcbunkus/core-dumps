@@ -1,22 +1,21 @@
 ---
+import type { CollectionEntry } from "astro:content";
 import Date from "./Date.astro";
 import Topics from "./Topics.astro";
 
 interface Props {
     url: string;
-    title: string;
-    date: Date;
-    topics: string[];
+    post: CollectionEntry<"posts">;
 }
 
-const { url, title, date, topics } = Astro.props;
+const { url, post } = Astro.props;
 ---
 
-<div class="flex flex-wrap gap-x-2 my-2 sm:my-0 sm:items-baseline">
-    <Date class="order-2 sm:order-1" date={date} />
+<div class="flex flex-wrap gap-x-4 my-2 sm:my-0 sm:items-baseline">
+    <Date class="order-2 sm:order-1" date={post.data.pubDate} />
     <a
         class="order-1 w-full text-xl sm:text-base sm:w-fit sm:order-2"
-        href={url}>{title.toLocaleLowerCase()}</a
+        href={url}>{post.data.title}</a
     >
-    <Topics class="order-3" topics={topics} />
+    <Topics class="order-3 brightness-50" topics={post.data.topics} />
 </div>

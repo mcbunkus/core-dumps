@@ -9,8 +9,6 @@ interface Props {
 }
 
 const { title } = Astro.props;
-
-const loweredTitle = title.toLocaleLowerCase();
 ---
 
 <html lang="en">
@@ -23,10 +21,10 @@ const loweredTitle = title.toLocaleLowerCase();
             content="An open journal about my thoughts, ideas, and feelings, for all to read."
         />
         <ClientRouter />
-        <title>{loweredTitle}</title>
+        <title>{title}</title>
     </head>
     <body transition:animate="fade">
-        <Header title={loweredTitle} />
+        <Header title={title} />
         <main><slot /></main>
         <Footer />
     </body>

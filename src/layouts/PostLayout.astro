@@ -3,7 +3,6 @@ import BaseLayout from "./BaseLayout.astro";
 import Date from "../components/Date.astro";
 import Topics from "../components/Topics.astro";
 import type { CollectionEntry } from "astro:content";
-import { loadRenderers } from "astro:container";
 
 interface Props {
     post: CollectionEntry<"posts">;
@@ -23,4 +22,15 @@ const { post, prev, next } = Astro.props;
     <article>
         <slot />
     </article>
+
+    <div
+        class="my-2 sm:mt-6 flex flex-col text-center items-center gap-4 sm:flex-row"
+    >
+        <span class="flex-1 sm:text-start">
+            {prev && <a href={`/posts/${prev.id}`}>&larr; {prev.data.title}</a>}
+        </span>
+        <span class="flex-1 sm:text-end">
+            {next && <a href={`/posts/${next.id}`}>{next.data.title} &rarr;</a>}
+        </span>
+    </div>
 </BaseLayout>
